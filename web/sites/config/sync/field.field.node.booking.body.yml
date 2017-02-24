@@ -1,0 +1,22 @@
+uuid: 64fa5d72-7cec-4dcb-98e4-c38d69d36cb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.booking
+  module:
+    - text
+id: node.booking.body
+field_name: body
+entity_type: node
+bundle: booking
+label: Notes
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

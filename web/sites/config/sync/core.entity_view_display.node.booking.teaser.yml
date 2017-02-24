@@ -1,0 +1,26 @@
+uuid: d0e549be-987d-430b-9f17-2cb870e44935
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.booking.body
+    - node.type.booking
+  module:
+    - text
+    - user
+id: node.booking.teaser
+targetEntityType: node
+bundle: booking
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

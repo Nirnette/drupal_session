@@ -1,0 +1,9 @@
+uuid: a893b373-8ff6-488b-bd17-ff76f2ead775
+langcode: en
+status: true
+dependencies: {  }
+name: Auteur
+vid: author
+description: ''
+hierarchy: 0
+weight: 0

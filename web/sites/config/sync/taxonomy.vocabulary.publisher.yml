@@ -1,0 +1,9 @@
+uuid: 5523811f-a669-42da-ba1b-1ac954f97fae
+langcode: en
+status: true
+dependencies: {  }
+name: 'Maison d''édition'
+vid: publisher
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,28 @@
+uuid: afe0f767-1575-4776-82c9-3636ba9df9a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_genre
+    - node.type.book
+    - taxonomy.vocabulary.genre_
+id: node.book.field_genre
+field_name: field_genre
+entity_type: node
+bundle: book
+label: Genre
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      genre_: genre_
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

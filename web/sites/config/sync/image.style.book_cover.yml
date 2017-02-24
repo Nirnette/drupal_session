@@ -1,0 +1,15 @@
+uuid: f25f2fee-b940-47bf-ad64-3be1209f3c89
+langcode: en
+status: true
+dependencies: {  }
+name: book_cover
+label: 'Couverture Livre (120x160)'
+effects:
+  c8589c4b-cc8d-408e-92ed-cbe14c5ca2af:
+    uuid: c8589c4b-cc8d-408e-92ed-cbe14c5ca2af
+    id: image_scale
+    weight: 1
+    data:
+      width: 120
+      height: 160
+      upscale: false

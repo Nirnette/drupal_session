@@ -1,0 +1,22 @@
+uuid: d6bcc836-a9e3-4db1-83e9-d21b2aaf3b3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pattern_livres
+label: 'Pattern livres'
+type: 'canonical_entities:node'
+pattern: '/[node:content-type]/[node:title]'
+selection_criteria:
+  e3b6af0d-7b8f-48f8-9cbe-c02cd59958b8:
+    id: node_type
+    bundles:
+      book: book
+    negate: false
+    context_mapping:
+      node: node
+    uuid: e3b6af0d-7b8f-48f8-9cbe-c02cd59958b8
+selection_logic: and
+weight: -5
+relationships: {  }

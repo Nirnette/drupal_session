@@ -1,0 +1,14 @@
+uuid: dafa28bd-f156-44ec-a1d1-8659372c7b85
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.librarian
+  module:
+    - user
+id: user_add_role_action.librarian
+label: 'Add the Bibliothécaire role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: librarian
