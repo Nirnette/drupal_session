@@ -1,0 +1,15 @@
+<!-- Add you custom twig html here -->
+
+{#{{  kint() }}#}
+
+{% set books = elements.books %}
+
+<div id="book-listing-wrapper">
+
+    {% for index, book in books %}
+
+        <div class="col-md-4 row-{{ index }} book-{{  book['#node'].id }}">
+            {{ book }}
+        </div>
+    {% endfor %}
+</div>

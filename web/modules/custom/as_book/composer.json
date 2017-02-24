@@ -1,0 +1,14 @@
+{
+  "name": "drupal/as_book",
+  "type": "drupal-module",
+  "description": "Fonctionnalités des livres de la bibliothèque",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/as_book",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/as_book",
+    "source": "http://cgit.drupalcode.org/as_book"
+  },
+  "require": { }
+}

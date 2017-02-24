@@ -1,0 +1,17 @@
+
+as_book.default_controller_testDrupal:
+  path: '/book/test'
+  defaults:
+    _controller: '\Drupal\as_book\Controller\DefaultController::testDrupal'
+    _title: 'Test Drupal'
+  requirements:
+    _permission: 'access content'
+
+as_book./:
+  path: '/as_book/form/book_reservation'
+  defaults:
+    _form: '\Drupal\as_book\Form\BookReservationForm'
+    _title: 'BookReservationForm'
+  requirements:
+    _access: 'TRUE'
+  
